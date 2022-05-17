@@ -1,6 +1,7 @@
 const getLocation = () => {
-    const location = 'Dublin, IE';
-    return location;
-}
+  const search = document.getElementById('searchBar');
+  const location = search.value;
+  return location;
+};
 
-export {getLocation};
+export { getLocation };
